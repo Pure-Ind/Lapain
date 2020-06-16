@@ -1,0 +1,158 @@
+$dark-grey: #8f8f8f;
+
+html {
+  scroll-behavior: smooth;
+}
+div {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5, p {
+  margin: 4px 0;  
+  line-height: 1;
+}
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.outline-text {
+  color: transparent;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.unstyled-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.padding-top-20 {
+  padding-top: 20px;
+}
+.padding-right {
+  padding-right: 50px;
+  @media (max-width: 1200px) {
+    padding-right: 0;
+  }
+}
+.margin-top-50 {
+  margin-top: 50px;
+  @media (max-width: 1200px) {
+    margin-top: 15px;
+  }
+}
+.margin-bottom-50 {
+  margin-bottom: 50px;
+  @media (max-width: 1200px) {
+    margin-bottom: 15px;
+  }
+}
+.margin-top-100 {
+  margin-top: 100px;
+  @media (max-width: 1200px) {
+    margin-top: 10px;
+  }
+}
+
+.bold-link {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #222;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1200px){
+  .mobile-hide {
+    display: none;
+  }
+}
+
+
+.underline-hover {
+  position: relative;
+}
+.underline-hover:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.underline-hover:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+_:-ms-fullscreen, :root .company-hex:before {
+  display: none!important;
+}
+_:-ms-fullscreen, :root .company-hex-title-inner {
+  max-width: 100%!important;
+}
+_:-ms-fullscreen, :root .company-hex-title-inner .hidden-content {
+  position: relative!important;
+        width: 100%!important;
+}
+_:-ms-fullscreen, :root .company-hex {
+  position: relative!important;
+  margin: 5px!important!important; 
+}
+
+
+.container-1200 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  z-index: 1;
+  @media (max-width: 1200px){
+    // padding: 0 20px;
+  }
+}
+.container-1400 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
+  position: relative;
+  z-index: 1;
+  @media (max-width: 1500px){
+    // padding: 0 20px;
+  }
+}
+
+figure {
+  margin: 0;
+  display: block;
+}
+figcaption {
+  display: none;
+}

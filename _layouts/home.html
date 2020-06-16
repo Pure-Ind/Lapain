@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+  <div class="site">
+    {%- include header-full-nav.html -%}
+
+    <div class="hero">
+      <div class="hero-large-hexagon">
+        <div class="hero-large-hexagon-content">
+          <h1 class="mobile-large-heading">Sewer Maintenance <span class="outline-text">Specialists</span></h1>
+          <p class="padding-top-20">Hurricane SMS is a leading provider of sewer inspection and maintenance services and programs in the Windsor and London areas.  Services range from Video (CCTV) inspections, flushing and cleaning, testing and repairs.</p>
+          <p><a href="/services/" class="btn btn-outline hvr-sweep-to-left">View Services</a></p>
+        </div>
+        <div class="hero-large-hexagon-side">
+          <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 282.12 1000"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M262.57,428.31,0,0V1000L262.57,569.83C288.64,527,288.64,473,262.57,428.31Z"/></g></g></svg>
+        </div>
+      </div>
+      <div class="hero-right"></div>
+    </div>
+    <div class="intro-section">
+      <div class="intro-section-small">
+        <div class="intro-section-small-content" data-aos="fade-up">
+          <h2>24 Hour Emergency Service</h2>
+        </div>
+        <div class="intro-section-small-side">
+          <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 282.175 1000">
+            <path d="M19.575,571.7l262.6,428.3V0L19.575,430.2C-6.525,473-6.525,527,19.575,571.7Z" style="fill: #222"/>
+          </svg>
+        </div>
+      </div>
+      <div class="intro-section-large">
+        <div class="intro-section-large-services" data-aos="fade-up">
+          <h3>Popular Services</h3>
+          <ul class="unstyled-list">
+            <li>Flushing &amp; Cleaning</li>
+            <li>Video (CCTV Inspection)</li>
+            <li>Lateral Launch Inspections</li>
+            <li>Fog Testing</li>
+            <li>Trenching Repairs</li>
+          </ul>
+          {% include arrow-link.html url="/services/" text="View All Services" color="white" %}
+        </div>
+        <div class="intro-section-large-text" data-aos="fade-up">
+          <h4>Serving Windsor, London, &amp; Surrounding Areas</h4>
+          <h3>Experience The Hurricane Difference</h3>
+          <p>With over 50 years in business, Hurricane SMS offers a wide variety of sewer maintenance and repair services within Windsor, Essex County, London and the surrounding areas. Our fleet is ready 24 hours a day, 7 days a week, including holidays for scheduled and emergency work. We deliver exceptional service in a clean, safe, precise manner all backed by years of experience and state of the art equipment. Experience the Hurricane difference.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-1400 section-padding">
+      <div class="grid grid-50-50">
+        <div class="grid-item flex-center-vertical">
+          <div class="content content-first padding-right mid-padding" data-aos="fade-up">
+            <h4 class="heading-sub">Hurricane SMS</h4>
+            <h2 class="heading-main">Our <span class="outline-text">Services</span></h2>
+            <p class="margin-bottom-50 margin-top-50">As a full-service maintenance provider, we're able to inspect and test, clean and repair all sewer, pipes and lines utilizing our state of the art equipment backed by our expert team.  With our full range of services, we're able to keep systems working efficiently, minimize downtime and disruption and extend the longevity of sewer and sanitary infrastructure. Along with our standard services offerings and emergency service, our team is equipped and experienced in developing and executing full inspection and maintenance programs.  Learn more about our services or contact us to experience the Hurricane difference.</p>
+            {% include arrow-link.html url="/services/" text="Learn More About Services" %}
+          </div>
+          <div class="content margin-top-100 mobile-no-padding-bottom mid-padding" data-aos="fade-up">
+            <h4 class="heading-sub">Industries</h4>
+            <h2 class="heading-main">We <span class="outline-text">Serve</span></h2>
+            <ul class="icon-list">
+              <li>Municipal</li>
+              <li>Engineering</li>
+              <li>Industrial</li>
+              <li>Pipeline</li>
+              <li>Construction</li>
+              <li>Utilities</li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-item flex-center-vertical">
+          <div class="hex-grid hex-grid-home">
+            {% include hex-grid-item.html svg="true" img_src="/assets/images/hydrovac/hydrovac-gold-hex-bg.jpg" img_alt="Hydro Excavation" title="Flushing & Cleaning" linkto="/services/cleaning-repairs/#flushing-cleaning" hover="true" %}
+            {% include hex-grid-item.html img_src="/assets/images/hydrovac/hydrovac-gold-hex-bg.jpg" img_alt="Hydro Excavation" title="Video <br>CCTV Inspection" linkto="/services/inspections-testing/#video" hover="true" %}
+            {% include hex-grid-item.html img_src="/assets/images/hydrovac/hydrovac-gold-hex-bg.jpg" img_alt="Hydro Excavation" title="Lateral Launch Inspections" linkto="/services/inspections-testing/#lateral-launch"  hover="true" %}
+            {% include hex-grid-item.html img_src="/assets/images/hydrovac/hydrovac-gold-hex-bg.jpg" img_alt="Hydro Excavation" title="Fog / Air Testing"  linkto="/services/inspections-testing/#fog-testing"  hover="true" %}
+            {% include hex-grid-item.html img_src="/assets/images/hydrovac/hydrovac-gold-hex-bg.jpg" img_alt="Hydro Excavation" title="Trenchless Repairs" linkto="/services/cleaning-repairs/#trenchless-repairs"  hover="true" %}
+            {% include hex-grid-item.html img_src="/assets/images/hydrovac/hydrovac-gold-hex-bg.jpg" img_alt="Hydro Excavation" title="Chemical Grouting" linkto="/services/cleaning-repairs/#chemical-grouting"  hover="true" %}
+            {% include hex-grid-item.html img_src="/assets/images/hydrovac/hydrovac-gold-hex-bg.jpg" img_alt="Hydro Excavation" title="Inspections &amp; Maintenance Programs" linkto="/services/inspections-testing/#inspection"  hover="true" %}
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-33-66">
+      <div class="dark-bg grid-item flex-center-all">
+        <div class="content padding-100 mobile-padding-section" data-aos="fade-up">
+            <h4 class="heading-sub">Get Started</h4>
+            <h2 class="heading-main">Book <span class="outline-text">Services</span></h2>
+            <div data-micromodal-trigger="modal-1" class="btn btn-outline hvr-sweep-to-left-dark large-button-text">519.796.9259</div>
+        </div>
+      </div>
+      <div class="grid-item workflow-background mobile-padding-section">
+        <div class="content flex-center-all padding-100">
+          <h4 class="heading-sub">How We Operate</h4>
+          <h2 class="heading-main">Our <span class="outline-text">Workflow</span></h2>
+          <div class="workflow">
+            <div class="workflow-item">
+              <div class="workflow-item-icon"></div>
+              <div class="workflow-item-title">
+                <h4>Clean</h4>
+              </div>
+            </div>
+            <div class="workflow-item">
+              <div class="workflow-item-icon"></div>
+              <div class="workflow-item-title">
+                <h4>Inspect &amp; Test</h4>
+              </div>
+            </div>
+            <div class="workflow-item">
+              <div class="workflow-item-icon"></div>
+              <div class="workflow-item-title">
+                <h4>Repair</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  {%- include quote.html -%}
+  
+  </div>
+  {%- include footer-simple.html -%}
+</body>
+
+</html>

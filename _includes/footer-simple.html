@@ -1,0 +1,65 @@
+<footer class="simple-site-footer">
+  <div class="simple-site-footer-content">
+    <div class="simple-site-footer-logo">
+        <img src="/assets/images/logos/hurricane/{{site.logo_white}}" alt="{{ site.title }}"/>
+    </div>
+    <div class="simple-site-footer-nav">
+        <ul>
+        {% for item in site.data.navigation %}
+            <li>
+                <a class="underline-hover" href="{{ item.url }}">{{ item.title }}</a>                            
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="simple-site-footer-social">
+        <ul>
+            {% if site.facebook %}
+            <li>
+                <a href="{{ site.facebook }}" target="_blank"><img src="/assets/images/icons/facebook-icon.svg" alt="Facebook Icon" /></a>                            
+            </li>
+            {% endif %}
+            {% if site.instagram %}
+            <li>
+                <a href="{{ site.instagram }}" target="_blank"><img src="/assets/images/icons/instagram-icon.svg" alt="Instagram Icon" /></a>                            
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+    <div class="simple-site-footer-siblings">
+        <h4>For Hydro Excavation &amp; Hydrovac Visit:</h4>
+        <a href="https://hurricanehydrovac.ca"><img class="grow" src="/assets/images/logos/hurricane/hurricane-hydrovac-wide-white.svg" alt="Hurricane SMS" /></a>
+    </div>
+  </div>
+</footer>
+<div class="bottom-bar">
+    <div class="bottom-bar-container">
+      <div class="bottom-bar-select">
+        <div class="bottom-bar-select-text mobile-hide">Hurricane SMS is Part of The:</div>
+        <div class="selectParent">
+          <select aria-label="Our Comapnies">
+            <option value="2">Hurricane Group</option>
+            <option value="2">Hurricane SMS</option>
+            <option value="2">Heaton Sanitation</option>
+            <option value="2">Ken Lapain &amp; Sons Ltd.</option>
+          </select>
+        </div>
+      </div>
+      <div class="bottom-bar-disclaimer">
+        &copy;&nbsp;2020 The Hurricane Group<br>
+        Web Design + Development by <a href="https://pureind.com" target="_blank">Pure Industries</a>
+      </div>
+    </div>
+  </div>
+{%- include book-now-form.html -%}
+<script type="text/javascript" src="/assets/js/slick.min.js" ></script>
+<script type="text/javascript" src="/assets/js/headroom.js" ></script>
+<script type="text/javascript" src="/assets/js/headroom-jquery.js" ></script>
+<script type="text/javascript" src="/assets/js/aos.js" ></script>
+<script type="text/javascript" src="/assets/js/micromodal.min.js" ></script>
+{% if include.photoswipe == "true" %}
+    <script type="text/javascript" src="/assets/js/photoswipe.min.js" ></script>
+    <script type="text/javascript" src="/assets/js/photoswipe-ui-default.min.js" ></script>
+    <script type="text/javascript" src="/assets/js/ps-script.js" ></script>
+{% endif %}
+<script type="text/javascript" src="/assets/js/main.js" ></script>

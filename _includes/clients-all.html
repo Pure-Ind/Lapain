@@ -1,0 +1,12 @@
+<div class="all-clients">
+    <h4 class="heading-sub">Trusted For 50+ years</h4>
+    <h2 class="heading-main">Our <span class="outline-text">Clients</span></h2>
+    <div class="all-clients-container">
+        {% for item in site.data.clients %}
+             <div class="all-clients-item">
+                <img src="{{item.logo}}" alt="{{item.name}} Logo" />
+            </div>                 
+        {% endfor %}
+       
+    </div>
+</div>

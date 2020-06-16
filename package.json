@@ -1,0 +1,10 @@
+{
+  "name": "hurricane-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mark DiCarlo <markdicarlo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.8.0"
+  }
+}

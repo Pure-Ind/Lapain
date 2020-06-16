@@ -1,0 +1,35 @@
+title: Hurricane SMS
+author:
+  name: Hurricane SMS
+  email: info@thehurricanegroup.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Providing the Windsor Region with unparalleled service in the sanitation and excavation industries.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+logo: hurricane-sms-logo-color.svg
+logo_white: hurricane-sms-wide-white.svg
+logo_dark: hurricane-sms-wide-dark.svg
+
+facebook: https://www.facebook.com/windsorhydrovac/
+instagram: https://www.instagram.com/hurricane_hydrovac_servicesinc/
+
+sass:
+  load_paths:
+    - node_modules
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+exclude:
+  - package.json
+  - README.md
+  - LICENSE.txt
+  - yarn.lock
+  
+# Build settings
+theme: hurricane-theme
+skin: sms
+
+plugins:
+ - jekyll-seo-tag

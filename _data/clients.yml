@@ -1,0 +1,15 @@
+# - name: Aecon
+- name: AMICO
+  logo: /assets/images/hydrovac/clients/amico-logo.png
+
+- name: City of Windsor
+  logo: /assets/images/hydrovac/clients/city-of-windsor-logo.png
+
+- name: City of London
+  logo: /assets/images/hydrovac/clients/london-logo-2.png
+
+- name: Municipality of Chatham Kent 
+  logo: /assets/images/hydrovac/clients/chatham-kent-logo.png
+
+- name: Jaar Excavating
+  logo: /assets/images/hydrovac/clients/jaar-logo.png

@@ -1,0 +1,34 @@
+.book-now {
+    background: #222;
+    padding: 100px 0;
+    h2 {
+        color: #fff;
+        .outline-text {
+            -webkit-text-stroke-color: white;
+        }
+    }
+    .grid-item:first-of-type {
+        text-align: right;
+        @media (max-width: 1200px){
+            text-align: center;
+        }
+        
+    }
+    .grid-item {
+        padding: 0 20px;
+        @media (max-width: 1200px){
+            text-align: center;
+        }
+    }
+    .btn {
+        font-weight: 800;
+        border-color: #fff;
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        z-index: 4;
+        &:hover {
+            color: #222;
+        }
+    }
+}

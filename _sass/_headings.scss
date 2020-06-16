@@ -1,0 +1,53 @@
+.red-heading {
+    h4 {
+      text-transform: uppercase;
+      font-size: 28px;
+      margin: 8px 0;
+      color: $brand-color;
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+    h2 {
+      margin: 4px 0;
+      font-size: 58px;
+      text-transform: uppercase;
+      line-height: 1;
+      font-weight: 800;
+    }
+    .learn-more  {
+        margin-top: 45px;        
+        a {
+          text-transform: uppercase;
+          font-size: 15px;
+          margin: 8px 0 16px 0;
+          color: #222;
+          text-decoration: none;
+          font-weight: 600;
+        }
+     }
+     p {
+       padding: 40px 0;
+       font-weight: 300;
+     }
+  }
+
+  .heading-main {
+    margin: 4px 0;
+    font-size: 58px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 800;
+    @media (max-width: 1200px){
+      font-size: 50px;
+    }
+  }
+  .heading-sub {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 8px 0;
+    color: $brand-color;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 0;
+  }

@@ -1,0 +1,25 @@
+<figure class="hex-grid-item" data-aos="fade-up">
+<a href="{{ include.linkto }}" {% if include.datasize %} data-size="{{ include.datasize }}" {% endif %}>
+    <div class="hex-grid-item-inner hex-grid-item-1">
+        {% if include.title %}
+        <div class="hex-grid-title">
+            <h2>{{ include.title }}</h2>
+        </div>
+        {% endif %}
+        {% if include.hover %}
+            <div class="hex-grid-hover"></div>
+        {% endif %}
+        <img src="{{ include.img_src }}" class="hex-grid-img" alt="{{ include.img_alt }}" />
+    </div>
+    {% if include.svg %}
+    <svg class="clip-svg" width="0" height="0" >
+        <defs>
+            <clipPath id="clip-svg-demo" clipPathUnits="objectBoundingBox" transform="scale(0.01, 0.01)">
+                    <polygon points="98.66025 45, 99.39693 46.5798, 99.84808 48.26352, 100 50, 99.84808 51.73648, 99.39693 53.4202, 98.66025 55, 78.66025 89.64102, 77.66044 91.06889, 76.42788 92.30146, 75 93.30127, 73.4202 94.03794, 71.73648 94.48909, 70 94.64102, 30 94.64102, 28.26352 94.48909, 26.5798 94.03794, 25 93.30127, 23.57212 92.30146, 22.33956 91.06889, 21.33975 89.64102, 1.33975 55, 0.60307 53.4202, 0.15192 51.73648, 0 50, 0.15192 48.26352, 0.60307 46.5798, 1.33975 45, 21.33975 10.35898, 22.33956 8.93111, 23.57212 7.69854, 25 6.69873, 26.5798 5.96206, 28.26352 5.51091, 30 5.35898, 70 5.35898, 71.73648 5.51091, 73.4202 5.96206, 75 6.69873, 76.42788 7.69854, 77.66044 8.93111, 78.66025 10.35898"></polygon>
+            </clipPath>
+        </defs>   
+    </svg>
+    {% endif %}
+</a>
+<figcaption>{{ include.img_alt }} </figcaption>
+</figure>
