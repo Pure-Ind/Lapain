@@ -428,11 +428,12 @@
     content: '';
     position: absolute;
     top: 0;
-    background-image: url('../images/backgrounds/hurricane-h.svg');
+    background-image: url('../images/lapain/logo-faded.png');
     background-repeat: no-repeat;
-    background-size: 60% 60%;
+    background-attachment: fixed;
+    // background-size: 60% 60%;
     background-position: center center;
-    opacity: 0.35;
+    opacity: 1;
     z-index: 0;
     
   }
@@ -1314,7 +1315,7 @@
       text-transform: uppercase;
       font-size: 20px;
       margin: 8px 0;
-      color: #c4912c;
+      color: $brand-color;
       font-weight: 900;
       line-height: 1;
       margin-bottom: 0;

@@ -119,9 +119,7 @@ header {
     }
     &-logo {
       margin-bottom: 40px;
-      img {
-        opacity: 0.2;
-      }
+      
     }
     &-contact {
       margin-top: 40px;
@@ -236,7 +234,7 @@ header {
       padding: 5px 18px;
       text-decoration: none;
       
-      color: #c4912c;
+      color: $brand-color;
       font-weight: 600;
       position: relative;
       span {

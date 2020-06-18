@@ -1,0 +1,9 @@
+<div class="certifications-all">
+    <div class="certifications-all-container">
+        {% for item in site.data.certifications %}
+             <div class="certifications-all-item">
+                <img src="{{item.logo}}" class="{{item.name}}" alt="{{item.name}} Logo" />
+            </div>                 
+        {% endfor %}
+    </div>
+</div>

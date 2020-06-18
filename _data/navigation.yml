@@ -5,12 +5,14 @@
   url: /about/
 
 - title: Services
-  url: /services/
   subnavigation:
-      - title: Inspections & Testing
-        url: /services/inspections-testing/
-      - title: Cleaning & Repairs
-        url: /services/cleaning-repairs/
-
+      - title: Full Service Garage
+        url: /services/full-service-garage/
+      - title: Fab & Weld
+        url: /services/fab-weld/
+      - title: Sandblast & Paint
+        url: /services/sandblast-paint/
+      - title: Body Shop
+        url: /services/body-shop/
 - title: Contact
   url: /contact/

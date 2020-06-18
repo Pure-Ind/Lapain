@@ -1,0 +1,20 @@
+<div class="gallery-wrapper">
+    <div class="container-1200">
+        <h4 class="heading-sub">We're Proud Of</h4>
+        <h2 class="heading-main">The <span class="outline-text">Work</span> We Do</h2>
+        <div class="gallery ps-gallery">
+        {% for item in site.data.gallery %}
+            {% if include.category == item.category %}
+                <figure class="gallery-item" data-aos="fade-up">
+                   
+                    <a href="{{ item.large }}" data-size="{{ item.datasize }}" >
+                        <img src="{{ item.thumb }}" class="gallery-thumb" alt="{{ item.alt }}" />
+                    </a>
+                    <figcaption>{{ item.alt }} </figcaption>
+                  
+                </figure>
+            {% endif %}          
+        {% endfor %}
+        </div>
+    </div>
+</div>

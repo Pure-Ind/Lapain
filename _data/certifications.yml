@@ -1,0 +1,11 @@
+- name: PPG
+  logo: /assets/images/logos/PPG.png
+
+- name: Dupont
+  logo: /assets/images/logos/Dupont.png
+
+- name: Truck Pro
+  logo: /assets/images/logos/Truck-Pro.png
+
+- name: Drive Clean 
+  logo: /assets/images/logos/Drive-Clean.png

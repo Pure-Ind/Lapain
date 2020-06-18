@@ -1,0 +1,15 @@
+- name: Full service Garage
+  background: /assets/images/lapain/garage-small.jpg
+  url: /services/full-service-garage/
+
+- name: Fabrication &amp; Welding
+  background: /assets/images/lapain/welding-small.jpg
+  url: /services/fab-weld/
+
+- name: Sandblasting &amp; Painting
+  background: /assets/images/lapain/paint-small.jpg
+  url: /services/sandblast-paint/
+
+- name: Body Shop
+  background: /assets/images/lapain/body-shop-small.jpg
+  url: /services/body-shop/

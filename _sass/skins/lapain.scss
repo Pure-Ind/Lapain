@@ -1,0 +1,322 @@
+$brand-color:#006496 !default;
+
+
+.book-now .btn {
+    margin: 5px;
+}
+.certifications-all {
+    background: $brand-color;
+    text-align: center;
+    padding: 100px 0;
+    h4 {
+      color: #222;
+    }
+    &-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1200px;
+    }
+    &-item {
+      width: 25%;
+      padding: 30px 15px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: 1200px){
+        width: 50%;
+      }
+      img {
+        mix-blend-mode: screen;
+        width: 100%;
+        max-width: 200px;
+        
+      }
+      .Clean {
+          max-height: 90px;
+          width: auto;
+      }
+    }
+  }
+  .benifits-blocks-item-title {
+      min-height: 50px;
+      .heading-sub {
+        font-size: 26px;
+      }
+  }
+  .benifits-blocks-item-inner {
+      min-height: 450px;
+  }
+  .benifits-blocks-item-content {
+    ul {
+        padding: 0;
+        li {
+            list-style-type: none;
+            font-weight: 600;
+            padding: 5px 0;
+        }
+    }
+}
+.certified {
+    padding: 150px 0;
+    background-image: url(../images/lapain/paint-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    &-inner {
+        text-align: center;
+        h2 {
+            color :#fff;
+            text-transform: uppercase;
+            font-weight: 800;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+        img {
+            mix-blend-mode: screen;
+            padding: 0 20px;
+        }
+    }
+}
+.fleets {
+    padding: 150px 0;
+    background-image: url(../images/lapain/fleet-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    &-inner {
+        max-width: 60%;
+        @media (max-width: 1200px){
+            max-width: 100%;
+            padding: 20px;
+        }
+        h2 {
+            color :#fff;
+            text-transform: uppercase;
+            font-weight: 800;
+            margin-bottom: 40px;
+            // font-size: 32px;
+        }
+        h4 {
+            color: #222;
+        }
+        p {
+            color: #fff;
+        }
+        img {
+            mix-blend-mode: screen;
+            
+        }
+    }
+}
+.contact-addressses {
+    padding: 100px 0;
+    a {
+        text-decoration: none;
+        color: $brand-color;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+}
+
+.hero-bodyshop {
+    @media (max-width: 1200px){
+        background: url('../images/lapain/body-shop-header.jpg')!important;
+    }
+    .hero-right {
+        background: url('../images/lapain/body-shop-header.jpg')!important;
+    }
+    
+}
+.hero-garage {
+    @media (max-width: 1200px){
+        background: url('../images/lapain/garage-bg.jpg')!important;
+    }
+    .hero-right {
+        background: url('../images/lapain/garage-bg.jpg')!important;
+    }
+    
+}
+.hero-welding {
+    @media (max-width: 1200px){
+        background: url('../images/lapain/welding-bg.jpg')!important;
+    }
+    .hero-right {
+        background: url('../images/lapain/welding-bg.jpg')!important;
+    }
+    
+}
+.hero-paint {
+    @media (max-width: 1200px){
+        background: url('../images/lapain/paint-hero.jpg')!important;
+    }
+    .hero-right {
+        background: url('../images/lapain/paint-hero.jpg')!important;
+    }
+    
+}
+.bodyshop {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+    @media (max-width: 1200px){
+      padding: 30px 0;
+    }
+    &:after {
+      content: "";
+      width: 50%;
+      height: 75%;
+      position: absolute;
+      right: -250px;
+      top: 0;
+      opacity: 0.5;
+      
+      background: url(../images/lapain/faded-bodyshop-2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      @media (max-width: 1200px){
+        display: none;
+      }
+    }
+    &:before {
+      content: "";
+      width: 50%;
+      height: 75%;
+      position: absolute;
+      left: -250px;
+      top: 20%;
+      background: url(../images/lapain/faded-bodyshop-1.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center right;
+      opacity: 0.5;
+      @media (max-width: 1200px){
+        display: none;
+      }
+    }
+  }
+  .garage {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+    @media (max-width: 1200px){
+      padding: 30px 0;
+    }
+    &:after {
+      content: "";
+      width: 50%;
+      height: 75%;
+      position: absolute;
+      right: -250px;
+      top: 0;
+      opacity: 0.5;
+      
+      background: url(../images/lapain/faded-garage-2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      @media (max-width: 1200px){
+        display: none;
+      }
+    }
+    &:before {
+      content: "";
+      width: 50%;
+      height: 75%;
+      position: absolute;
+      left: -250px;
+      top: 20%;
+      background: url(../images/lapain/faded-garage-1.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center right;
+      opacity: 0.5;
+      @media (max-width: 1200px){
+        display: none;
+      }
+    }
+  }
+  .welding {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+    @media (max-width: 1200px){
+      padding: 30px 0;
+    }
+    &:after {
+      content: "";
+      width: 50%;
+      height: 75%;
+      position: absolute;
+      right: -250px;
+      top: 0;
+      opacity: 0.5;
+      
+      background: url(../images/lapain/faded-welding-2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      @media (max-width: 1200px){
+        display: none;
+      }
+    }
+    &:before {
+      content: "";
+      width: 50%;
+      height: 75%;
+      position: absolute;
+      left: -250px;
+      top: 20%;
+      background: url(../images/lapain/faded-welding-1.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center right;
+      opacity: 0.5;
+      @media (max-width: 1200px){
+        display: none;
+      }
+    }
+  }
+  .paint {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+    @media (max-width: 1200px){
+      padding: 30px 0;
+    }
+    &:after {
+      content: "";
+      width: 50%;
+      height: 75%;
+      position: absolute;
+      right: -250px;
+      top: 0;
+      opacity: 0.5;
+      
+      background: url(../images/lapain/faded-paint-2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      @media (max-width: 1200px){
+        display: none;
+      }
+    }
+    &:before {
+      content: "";
+      width: 50%;
+      height: 75%;
+      position: absolute;
+      left: -250px;
+      top: 20%;
+      background: url(../images/lapain/faded-paint-1.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center right;
+      opacity: 0.5;
+      @media (max-width: 1200px){
+        display: none;
+      }
+    }
+  }

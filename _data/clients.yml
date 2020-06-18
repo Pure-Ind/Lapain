@@ -1,15 +1,20 @@
-# - name: Aecon
-- name: AMICO
+- name: Aecon
+  logo: /assets/images/hydrovac/clients/aecon-logo.png
+
+- name: Amico
   logo: /assets/images/hydrovac/clients/amico-logo.png
 
-- name: City of Windsor
-  logo: /assets/images/hydrovac/clients/city-of-windsor-logo.png
+- name: Fortis
+  logo: /assets/images/hydrovac/clients/fortis-group-logo.png
 
-- name: City of London
-  logo: /assets/images/hydrovac/clients/london-logo-2.png
+- name: Hydro One
+  logo: /assets/images/hydrovac/clients/hydro-one-logo.png
 
-- name: Municipality of Chatham Kent 
-  logo: /assets/images/hydrovac/clients/chatham-kent-logo.png
+- name: Cintas
+  logo: /assets/images/hydrovac/clients/cintas-logo.png
 
-- name: Jaar Excavating
-  logo: /assets/images/hydrovac/clients/jaar-logo.png
+- name: Anchor Danly
+  logo: /assets/images/hydrovac/clients/anchor-danly-logo.png
+
+- name: Unifab
+  logo: /assets/images/hydrovac/clients/unifab-logo.png

@@ -10,9 +10,9 @@
       height: auto;
       min-height: inherit;
       max-height: initial;
-      padding-top: 100px;
+      padding: 180px 0 100px 0;
       flex-direction: column;
-      background: url('../images/backgrounds/hurricane-gold-bg.jpg');
+      background: url('../images/lapain/home-hero.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: right;
@@ -23,7 +23,7 @@
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(128, 43, 43, 0.68);
+        // background: rgba(128, 43, 43, 0.68);
       }
      }
     &-large-hexagon {
@@ -129,7 +129,7 @@
       display: flex;
       align-items: center;
       width: 100%;
-      background: url('../images/backgrounds/hurricane-gold-bg.jpg');
+      background: url('../images/lapain/home-hero.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: right;
@@ -218,8 +218,8 @@
     @media (max-width: 1200px){
       max-height: inherit;
       min-height: auto;
-      padding: 100px 0;
-      background: url('../images/hurricane-hero-interior.jpg');
+      padding: 180px 0 100px;
+      background: url('../images/lapain/home-hero.jpg');
       background-size: cover;;
       &:after {
         position: absolute;
@@ -232,7 +232,7 @@
       }
     }
     .hero-right {
-        background: url('../images/hurricane-hero-interior.jpg');
+      background: url('../images/lapain/home-hero.jpg');
     }
     .hero-large-hexagon-side {
       width: 200px;

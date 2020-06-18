@@ -1,18 +1,18 @@
-title: Hurricane SMS
+title: Lapain & Sons
 author:
-  name: Hurricane SMS
+  name: Lapain & Sons
   email: info@thehurricanegroup.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Providing the Windsor Region with unparalleled service in the sanitation and excavation industries.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-logo: hurricane-sms-logo-color.svg
-logo_white: hurricane-sms-wide-white.svg
-logo_dark: hurricane-sms-wide-dark.svg
+logo: lapain-logo.png
+logo_white: lapain-logo.png
+logo_dark: lapain-logo.png
 
-facebook: https://www.facebook.com/windsorhydrovac/
-instagram: https://www.instagram.com/hurricane_hydrovac_servicesinc/
+# facebook: https://www.facebook.com/windsorhydrovac/
+# instagram: https://www.instagram.com/hurricane_hydrovac_servicesinc/
 
 sass:
   load_paths:
@@ -29,7 +29,7 @@ exclude:
   
 # Build settings
 theme: hurricane-theme
-skin: sms
+skin: lapain
 
 plugins:
  - jekyll-seo-tag
