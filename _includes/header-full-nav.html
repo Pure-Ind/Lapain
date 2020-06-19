@@ -9,7 +9,7 @@
                     {% for item in site.data.navigation %}
                         <li>
                             {% if item.title == 'Services' %}
-                                <div class="underline-hover">{{ item.title }}</div>
+                                <div class="underline-hover nolink">{{ item.title }}</div>
                             
                             {% else %}
                                 <a class="underline-hover" href="{{ item.url }}">{{ item.title }}</a>    
