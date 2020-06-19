@@ -6,9 +6,17 @@
     <div class="simple-site-footer-nav">
         <ul>
         {% for item in site.data.navigation %}
-            <li>
-                <a class="underline-hover" href="{{ item.url }}">{{ item.title }}</a>                            
-            </li>
+            {% if item.subnavigation[0] %}
+                {% for subentry in item.subnavigation %}
+                  <li>
+                    <a class="underline-hover" href="{{ subentry.url }}">{{ subentry.title }}</a>                            
+                  </li>
+                {% endfor %}
+            {% else %}
+              <li>
+                  <a class="underline-hover" href="{{ item.url }}">{{ item.title }}</a>                            
+              </li>
+            {% endif %}
         {% endfor %}
         </ul>
     </div>

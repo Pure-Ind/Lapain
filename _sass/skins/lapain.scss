@@ -116,12 +116,19 @@ $brand-color:#006496 !default;
         text-decoration: none;
         color: $brand-color;
     }
-    h2 {
-        font-size: 34px;
+    p {
+      color: #fff;
+      max-width: 400px;
+      margin: 20px auto 0 auto;
+      text-align: center;
+      line-height: 1.4;
     }
-    h4 {
-        font-size: 18px;
-    }
+    // h2 {
+    //     font-size: 34px;
+    // }
+    // h4 {
+    //     font-size: 18px;
+    // }
 }
 
 .hero-bodyshop {
@@ -320,3 +327,7 @@ $brand-color:#006496 !default;
       }
     }
   }
+
+.simple-site-footer-nav {
+  margin-top: 40px;
+}

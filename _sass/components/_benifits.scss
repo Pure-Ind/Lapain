@@ -13,12 +13,20 @@
         margin: 0 auto;
         display: flex;
         margin-top: 20px;
+        
         @media (max-width: 1200px) {
             flex-direction: column;
         }
         &-item {
             width: 33%;
             text-align: center;
+            text-decoration: none;
+            
+            ul {
+                li {
+                    color: #222;
+                }
+            }
             @media (max-width: 1200px) {
                 width: 100%;
             }
@@ -26,6 +34,10 @@
                 background: #fff;
                 margin: 20px;
                 padding: 50px 40px;
+                transition: all .5s ease-in-out;
+                h2, ul li {
+                    transition: all .5s ease-in-out;
+                }
             }
             &-icon {
                 
@@ -41,6 +53,15 @@
             }
             &-content {
                 margin-top: 30px;
+            }
+            &:hover {
+                .benifits-blocks-item-inner {
+                 background: $brand-color;
+                    ul li,
+                    h2 {
+                        color:#fff;
+                    }
+                }
             }
         }
     }
