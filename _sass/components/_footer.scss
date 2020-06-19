@@ -136,7 +136,9 @@
         background-size: contain;
       }
     }
-    
+    option {
+        background: #111;
+    }
     .selectParent select {
       text-indent: 1px;
       text-overflow: '';
@@ -166,6 +168,6 @@
       position: absolute;
       background: transparent url(../images/down-icon.svg) no-repeat center center;
       background-size: contain;
-      right: 5px;
+      right: -5px;
     }
   }
