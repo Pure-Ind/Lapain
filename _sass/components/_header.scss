@@ -38,7 +38,10 @@ header {
           background-size: contain;
         }
       }
-      
+      option {
+        background-color: #111;
+        color: #fff;
+      }
       .selectParent select {
         text-indent: 1px;
         text-overflow: '';
@@ -55,6 +58,7 @@ header {
         border: none;
         color: #fff;
         background: #111;
+        background-color: #111;
         position: relative;
       }
       .selectParent:after {
@@ -67,7 +71,7 @@ header {
         position: absolute;
         background: transparent url(../images/down-icon.svg) no-repeat center center;
         background-size: contain;
-        right: 5px;
+        right: -5px;
       }
     }
     .header-container {
