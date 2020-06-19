@@ -8,7 +8,12 @@
                 <ul>
                     {% for item in site.data.navigation %}
                         <li>
-                            <a class="underline-hover" href="{{ item.url }}">{{ item.title }}</a>
+                            {% if item.title == 'Services' %}
+                                <div class="underline-hover">{{ item.title }}</div>
+                            
+                            {% else %}
+                                <a class="underline-hover" href="{{ item.url }}">{{ item.title }}</a>    
+                            {% endif %}
                             {% if item.subnavigation[0] %}
                                 <ul class="dropdown">
                                 {% for subentry in item.subnavigation %}

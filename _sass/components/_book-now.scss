@@ -32,3 +32,39 @@
         }
     }
 }
+
+.book-now-wide {
+    background: #222;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 1200px){
+        flex-direction: column;
+        text-align: center;
+    }
+    &-item {
+        display: inline-block;
+        margin: 8px;
+    }
+    &-item-text {
+        margin-right: 20px;
+    }
+    h2 {
+        color: #fff;
+        .outline-text {
+            -webkit-text-stroke-color: white;
+        }
+    }
+    
+    .btn {
+        font-weight: 800;
+        border-color: #fff;
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        z-index: 4;
+        &:hover {
+            color: #222;
+        }
+    }
+}

@@ -1398,13 +1398,22 @@
 }
 .contact-page-form {
   padding: 100px 0;
+  
   @media (max-width: 1200px) {
     padding: 100px 30px;
+  }
+  &-inner {
+    max-width: 800px;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+  }
   }
   form {
     overflow: hidden;
     position: relative;
     z-index: 5;
+    
     @media (max-width: 1200px){
       text-align: center;
     }
@@ -1428,11 +1437,15 @@
       padding: 10px;
       color: #ddd;
     }
+    .btn-container {
+      text-align: center;
+    }
     .btn-outline {
       border-color: #222;
       border-width:1px;
       
       font-weight: 600;
+     
       
      }
   }

@@ -1,7 +1,7 @@
 <div class="gallery-wrapper">
     <div class="container-1200">
-        <h4 class="heading-sub">We're Proud Of</h4>
-        <h2 class="heading-main">The <span class="outline-text">Work</span> We Do</h2>
+        <h4 class="heading-sub">{{ include.title }}</h4>
+        <h2 class="heading-main"><span class="outline-text">Sample</span> Gallery</h2>
         <div class="gallery ps-gallery">
         {% for item in site.data.gallery %}
             {% if include.category == item.category %}
