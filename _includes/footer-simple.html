@@ -34,21 +34,20 @@
             {% endif %}
         </ul>
     </div>
+    <div class="simple-site-footer-siblings">
+        <h4>{{site.title}} is part of the Hurricane Group:</h4>
+        <div class="group-list">
+          {% for item in site.data.companies %}
+            {% if item.name != site.title %}
+              <a href="{{ item.website }} "><img class="grow" src="{{ item.logo_white }}" alt="{{ item.name }}" /></a>
+            {% endif %}
+          {% endfor %}
+        </div>
+    </div>
   </div>
 </footer>
 <div class="bottom-bar">
     <div class="bottom-bar-container">
-      <div class="bottom-bar-select">
-        <div class="bottom-bar-select-text mobile-hide">Ken Lapain &amp; Sons LTD is Part of The:</div>
-        <div class="selectParent">
-          <select aria-label="Our Comapnies">
-            <option value="2">Hurricane Group</option>
-            <option value="2">Hurricane SMS</option>
-            <option value="2">Heaton Sanitation</option>
-            <option value="2">Ken Lapain &amp; Sons Ltd.</option>
-          </select>
-        </div>
-      </div>
       <div class="bottom-bar-disclaimer">
         &copy;&nbsp;2020 The Hurricane Group<br>
         Web Design + Development by <a href="https://pureind.com" target="_blank">Pure Industries</a>

@@ -199,7 +199,7 @@ header {
     }
     .full-header-nav-button {
       border: 1px solid #222;
-      color: #222;
+      color: #fff;
     }
     ul li ul li a {
       color: #fff!important;
@@ -226,6 +226,12 @@ header {
     margin-top: 0;
     padding: 15px 0;
   }
+  &-nav-button {
+    border: 1px solid #222;
+    color: #fff;
+    font-size: 20px;
+    background:$brand-color;
+  }
   .header-mobile-book-now {
     position: absolute;
     right: 93px;
@@ -239,9 +245,10 @@ header {
       padding: 5px 18px;
       text-decoration: none;
       
-      color: $brand-color;
+      color: #fff;
       font-weight: 600;
       position: relative;
+      font-size: 14px;
       span {
         color: #222;
       }

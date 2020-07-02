@@ -1,19 +1,24 @@
 - name: Hurricane Group
   website: https://thehurricanegroup.ca
   logo: the-hurricane-group-logo.svg
+  logo_white: /assets/images/logos/hurricane/hurricane-group-logo-white.svg
 
 - name: Hurricane Hydrovac
   website: https://hurricanehydrovac.ca
   logo: hurricane-group.png
+  logo_white: /assets/images/logos/hurricane/hurricane-hydrovac-wide-white.svg
 
 - name: Lapain & Sons
   website: https://www.lapain.ca/
   logo: hurricane-group.png
+  logo_white: /assets/images/logos/hurricane/lapain-white.svg
 
 - name: Hurricane SMS
   website: https://hurricanesms.ca
   logo: hurricane-group.png
+  logo_white: /assets/images/logos/hurricane/hurricane-sms-wide-white.svg
 
 - name: Heaton Sanitation
   website: https://heatonsanitation.ca
   logo: hurricane-group.png
+  logo_white: /assets/images/logos/hurricane/heaton-sanitation-white.svg

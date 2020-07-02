@@ -1,95 +1,216 @@
-- alt: Cement Truck
-  large: /assets/images/lapain/gallery/body-shop-1.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/body-shop-1.jpg
-  datasize: 1200x587
-  category: bodyshop
-
-- alt: Fire Truck
-  large: /assets/images/lapain/gallery/body-shop-2.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/body-shop-2.jpg
-  datasize: 1200x815
-  category: bodyshop
-
-- alt: Hydrovac Truck
-  large: /assets/images/lapain/gallery/body-shop-3.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/body-shop-3.jpg
-  datasize: 1200x554
-  category: bodyshop
-
-- alt: SMS Truck
-  large: /assets/images/lapain/gallery/body-shop-4.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/body-shop-4.jpg
-  datasize: 1200x736
-  category: bodyshop
-
-- alt: Yellow Truck
-  large: /assets/images/lapain/gallery/body-shop-5.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/body-shop-5.jpg
-  datasize: 1200x796
-  category: bodyshop
-
-- alt: Fire Truck
-  large: /assets/images/lapain/gallery/body-shop-6.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/body-shop-6.jpg
-  datasize: 1200x493
-  category: bodyshop
-
-- alt: Orange Dump truck
-  large: /assets/images/lapain/gallery/body-shop-7.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/body-shop-7.jpg
-  datasize: 1200x628
-  category: bodyshop
-
-- alt: Blue Truck
-  large: /assets/images/lapain/gallery/body-shop-8.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/body-shop-8.jpg
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-1.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-1.jpg
   datasize: 1200x900
   category: bodyshop
 
-- alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/paint-sandblast-1.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/paint-sandblast-1.jpg
-  datasize: 1200x691
-  category: paint
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-2.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-2.jpg
+  datasize: 1200x736
+  category: bodyshop
+
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-3.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-3.jpg
+  datasize: 1200x815
+  category: bodyshop
+
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-4.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-4.jpg
+  datasize: 1200x915
+  category: bodyshop
+
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-5.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-5.jpg
+  datasize: 1200x796
+  category: bodyshop
+
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-6.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-6.jpg
+  datasize: 1200x554
+  category: bodyshop
+
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-7.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-7.jpg
+  datasize: 1200x905
+  category: bodyshop
+
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-8.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-8.jpg
+  datasize: 1200x628
+  category: bodyshop
+
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-9.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-9.jpg
+  datasize: 1200x587
+  category: bodyshop
+
+- alt: Body Shop
+  large: /assets/images/lapain/gallery/bodyshop/bodyshop-10.jpg
+  thumb: /assets/images/lapain/gallery/bodyshop/thumbs/bodyshop-10.jpg
+  datasize: 1200x493
+  category: bodyshop
+
+- alt: Full Service Garage
+  large: /assets/images/lapain/gallery/garage/garage-1.jpg
+  thumb: /assets/images/lapain/gallery/garage/thumbs/garage-1.jpg
+  datasize: 1153x1080
+  category: garage
+
+- alt: Full Service Garage
+  large: /assets/images/lapain/gallery/garage/garage-2.jpg
+  thumb: /assets/images/lapain/gallery/garage/thumbs/garage-2.jpg
+  datasize: 1200x900
+  category: garage
+
+- alt: Full Service Garage
+  large: /assets/images/lapain/gallery/garage/garage-3.jpg
+  thumb: /assets/images/lapain/gallery/garage/thumbs/garage-3.jpg
+  datasize: 1200x358
+  category: garage
+
+- alt: Fabrication and Welding
+  large: /assets/images/lapain/gallery/fabweld/fabweld-1.jpg
+  thumb: /assets/images/lapain/gallery/fabweld/thumbs/fabweld-1.jpg
+  datasize: 667x1080
+  category: fabweld
+
+- alt: Fabrication and Welding
+  large: /assets/images/lapain/gallery/fabweld/fabweld-2.jpg
+  thumb: /assets/images/lapain/gallery/fabweld/thumbs/fabweld-2.jpg
+  datasize: 1200x919
+  category: fabweld
+
+- alt: Fabrication and Welding
+  large: /assets/images/lapain/gallery/fabweld/fabweld-3.jpg
+  thumb: /assets/images/lapain/gallery/fabweld/thumbs/fabweld-3.jpg
+  datasize: 810x1080
+  category: fabweld
 
 - alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/paint-sandblast-2.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/paint-sandblast-2.jpg
-  datasize: 1200x589
-  category: paint
-
-- alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/paint-sandblast-3.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/paint-sandblast-3.jpg
-  datasize: 1200x890
-  category: paint
-
-- alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/paint-sandblast-4.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/paint-sandblast-4.jpg
-  datasize: 1200x431
-  category: paint
-
-- alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/paint-sandblast-5.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/paint-sandblast-5.jpg
-  datasize: 1200x712
-  category: paint
-
-- alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/paint-sandblast-6.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/paint-sandblast-6.jpg
-  datasize: 1200x779
-  category: paint
-
-- alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/paint-sandblast-7.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/paint-sandblast-7.jpg
+  large: /assets/images/lapain/gallery/painting/painting-1.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-1.jpg
   datasize: 1200x707
-  category: paint
+  category: painting
 
 - alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/paint-sandblast-8.jpg
-  thumb: /assets/images/lapain/gallery/thumbs/paint-sandblast-8.jpg
+  large: /assets/images/lapain/gallery/painting/painting-2.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-2.jpg
+  datasize: 810x1080
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-3.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-3.jpg
+  datasize: 1200x497
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-4.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-4.jpg
+  datasize: 1200x900
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-5.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-5.jpg
+  datasize: 1200x900
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-6.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-6.jpg
+  datasize: 810x1080
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-7.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-7.jpg
+  datasize: 1200x712
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-8.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-8.jpg
+  datasize: 1200x1007
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-9.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-1.jpg
+  datasize: 1200x631
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-10.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-10.jpg
+  datasize: 1200x776
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-11.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-11.jpg
+  datasize: 1200x636
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-12.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-12.jpg
+  datasize: 1200x589
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-13.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-13.jpg
   datasize: 1200x691
-  category: paint
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-14.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-14.jpg
+  datasize: 1200x431
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-15.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-15.jpg
+  datasize: 1200x779
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-16.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-16.jpg
+  datasize: 1199x1080
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-17.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-17.jpg
+  datasize: 1200x636
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-18.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-18.jpg
+  datasize: 1200x433
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-19.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-19.jpg
+  datasize: 1200x726
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-20.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-20.jpg
+  datasize: 1200x890
+  category: painting
+

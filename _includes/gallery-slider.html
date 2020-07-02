@@ -1,0 +1,25 @@
+<div class="gallery-wrapper ">
+    <div class="container-1200">
+        <h4 class="heading-sub">{{ include.title }}</h4>
+        <h2 class="heading-main"><span class="outline-text">Sample</span> Gallery</h2>
+        <div class="ps-gallery gallery-slider-wrapper">
+        <div class="slick-wrapper">
+                <div class="slick-gallery">
+                    {% for item in site.data.gallery %}
+                        {% if include.category == item.category %}
+                            <figure   data-aos="fade-up">
+                            
+                                <a class="gallery-slider-anchor" href="{{ item.large }}" data-size="{{ item.datasize }}" >
+                                    <img src="{{ item.thumb }}"  alt="{{ item.alt }}" />
+                                </a>
+                                <figcaption>{{ item.alt }} </figcaption>
+                            
+                            </figure>
+                        {% endif %}          
+                    {% endfor %}
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
