@@ -33,3 +33,6 @@ skin: lapain
 
 plugins:
  - jekyll-seo-tag
+
+phone:
+ - 519.776.6473
