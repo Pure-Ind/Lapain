@@ -89,6 +89,18 @@
     <div class="book-now-wide-item"><a href="mailto:jodie@lapain.ca" class="btn btn-outline hvr-sweep-to-left-dark large-button-text">jodie@lapain.ca</a></div>
   </div>
     {%- include gallery-slider.html category="painting" title="Sandblasting &amp; Painting"  -%}
+    <div class="all-clients">
+    <h4 class="heading-sub">Trusted By The Best</h4>
+    <h2 class="heading-main">Our <span class="outline-text">Clients</span></h2>
+    <div class="all-clients-container">
+        {% for item in site.data.paintclients %}
+             <div class="all-clients-item">
+                <img src="{{item.logo}}" alt="{{item.name}} Logo" />
+            </div>                 
+        {% endfor %}
+       
+    </div>
+</div>
     {%- include link-boxes.html -%}
     {%- include certifications.html -%}
    
