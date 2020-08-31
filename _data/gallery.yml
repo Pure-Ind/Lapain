@@ -221,9 +221,15 @@
   category: painting
 
 - alt: Painting &amp; Sandblasting
-  large: /assets/images/lapain/gallery/painting/painting-19.jpg
-  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-19.jpg
-  datasize: 1200x726
+  large: /assets/images/lapain/gallery/painting/painting-24.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-24.jpg
+  datasize: 1200x900
+  category: painting
+
+- alt: Painting &amp; Sandblasting
+  large: /assets/images/lapain/gallery/painting/painting-25.jpg
+  thumb: /assets/images/lapain/gallery/painting/thumbs/painting-25.jpg
+  datasize: 1200x900
   category: painting
 
 - alt: Painting &amp; Sandblasting
