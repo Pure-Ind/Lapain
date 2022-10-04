@@ -9,24 +9,17 @@
             <h2 class="heading-main text-align-center">Book Services</h2>
             <p class="text-align-center">To book over the phone please call <a href="tel:{{ site.phone }}" class="phone">{{ site.phone }}</a></p>
            <div class="book-now-form">
-            <form action="https://submit-form.com/avczMLPO">
-              <input
-                type="hidden"
-                name="_redirect"
-                value="https://www.lapain.ca/success"
-              />
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name">
-                            <label for="phone">Phone</label>
-                            <input type="text" id="phone" name="phone">
-                            <label for="email">Email</label>
-                            <input type="text" id="email" name="email">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message"></textarea>
-                            <div class="g-recaptcha" data-sitekey="6LdrWBwbAAAAAB8xav05sxCPh3rhmZBUYpXOk5TL"></div>
-            
-                            <button class="btn btn-outline hvr-sweep-to-left" type="submit">Contact Us</button>
-                        </form>
+            <form netlify action="/success">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name">
+              <label for="phone">Phone</label>
+              <input type="text" id="phone" name="phone">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email">
+              <label for="message">Message</label>
+              <textarea id="message" name="message"></textarea>
+              <button class="btn btn-outline hvr-sweep-to-left" type="submit">Contact Us</button>
+            </form>
         </div>
         </main>
         
