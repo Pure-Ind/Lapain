@@ -1,5 +1,5 @@
 <figure class="hex-grid-item" data-aos="fade-up">
-<a href="{{ include.linkto }}" {% if include.datasize %} data-size="{{ include.datasize }}" {% endif %}>
+<a href="{{ include.linkto | relative_url }}" {% if include.datasize %} data-size="{{ include.datasize }}" {% endif %}>
     <div class="hex-grid-item-inner hex-grid-item-1">
         {% if include.title %}
         <div class="hex-grid-title">
@@ -9,7 +9,7 @@
         {% if include.hover %}
             <div class="hex-grid-hover"></div>
         {% endif %}
-        <img src="{{ include.img_src }}" class="hex-grid-img" alt="{{ include.img_alt }}" />
+        <img src="{{ include.img_src | relative_url }}" class="hex-grid-img" alt="{{ include.img_alt }}" />
     </div>
     {% if include.svg %}
     <svg class="clip-svg" width="0" height="0" >

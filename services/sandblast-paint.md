@@ -4,4 +4,6 @@
 
 layout: sandblast-paint
 permalink: /services/sandblast-paint/
+title: Sandblasting & Painting
+description: Our Sandblast and Paint facility serves both manufacturer &amp; individuals for high build epoxy, zinc coatings, urethane, enamel topcoats, and specialty coatings.
 ---

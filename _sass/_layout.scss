@@ -150,7 +150,11 @@
       height: 100%;
       position: absolute;
       right: 0;
+      display: flex;
       top: 0;
+      @media (max-width: 1200px){
+        display: none;
+      }
     }
   }
   &-large {
@@ -1436,7 +1440,7 @@
       width: 100%;
       margin-bottom: 20px;
       padding: 10px;
-      color: #ddd;
+      color: #222;
     }
     .btn-container {
       text-align: center;

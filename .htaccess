@@ -1,0 +1,6 @@
+Redirect 301 "/full-service-garage" "/services/full-service-garage"
+Redirect 301 "/fab-weld" "/services/fab-weld"
+Redirect 301 "/sanblast-paint" "/services/sandblast-paint"
+Redirect 301 "/body-shop" "/services/body-shop"
+
+

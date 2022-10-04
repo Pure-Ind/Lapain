@@ -240,7 +240,7 @@ $brand-color:#006496 !default;
       background: url(../images/lapain/faded-garage-1.png);
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: center right;
+      background-position: center left;
       opacity: 0.5;
       @media (max-width: 1200px){
         display: none;
@@ -266,6 +266,7 @@ $brand-color:#006496 !default;
       background: url(../images/lapain/faded-welding-2.png);
       background-repeat: no-repeat;
       background-size: contain;
+      background-position: center right;
       @media (max-width: 1200px){
         display: none;
       }
@@ -280,7 +281,7 @@ $brand-color:#006496 !default;
       background: url(../images/lapain/faded-welding-1.png);
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: center right;
+      background-position: center left;
       opacity: 0.5;
       @media (max-width: 1200px){
         display: none;
@@ -330,4 +331,8 @@ $brand-color:#006496 !default;
 
 .simple-site-footer-nav {
   margin-top: 40px;
+}
+
+.accessible {
+  color: #fff;
 }

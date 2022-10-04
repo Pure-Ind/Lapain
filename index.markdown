@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-quote_content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rerum accusamus magni quod architecto velit temporibus. Numquam debitis temporibus labore iure.
-quote_author: Adam Zaremba
-quote_company: Pure Industries
+title: Mechanics in Windsor &amp; Essex County
+tagline: Mechanics in Windsor &amp; Essex County
+description: One-Stop Shop For All Your Service &amp; Repair Needs. Commercial, Heavy Duty Vehicles, Industrial Sandblasting, Painting, Full-on Fabrication & Vehicle Body Repairs.
 ---

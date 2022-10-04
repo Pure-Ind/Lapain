@@ -1,9 +1,9 @@
-title: Lapain & Sons
+title: Ken Lapain & Sons
 author:
-  name: Lapain & Sons
-  email: info@thehurricanegroup.com
+  name: Ken Lapain & Sons
+  email: jodie@lapain.ca
 description: > # this means to ignore newlines until "show_excerpts:"
-  Providing the Windsor Region with unparalleled service in the sanitation and excavation industries.
+  Located in the hub of Essex County at 2119 County Road 15 in Essex, Ken Lapain & Sons is the one-stop shop for all your service and repair needs.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -26,6 +26,7 @@ exclude:
   - README.md
   - LICENSE.txt
   - yarn.lock
+  - _compress_images_cache.yml
   
 # Build settings
 theme: hurricane-theme
