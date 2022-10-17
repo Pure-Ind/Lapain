@@ -4,7 +4,6 @@ $('.hamburger').on('click', function(){
 });
 
 MicroModal.init();
-MicroModal.show('modal-2');
 $("#main-header").headroom();
 
 $(document).ready(function(){
